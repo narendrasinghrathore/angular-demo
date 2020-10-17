@@ -35,14 +35,18 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['user', userId])
   }
 
-  applyFilter(event) {
-    const filterValue = (event.target as HTMLInputElement).value;
+  applyFilter(value) {
+    const filterValue = value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
   getUserName(id: string) {
     const user = this.users.find(user => user.id === id);
     return user && user.name || '?';
+  }
+
+  noData() {
+    return this.dataSource.data.length === 0 ? true : false;
   }
 
 }

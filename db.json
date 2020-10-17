@@ -30,7 +30,7 @@
       "content": "Some content here.",
       "userId": 5
     },
-    { "id": 6, "title": "Post 6", "content": "Some content here.", "userId": 6 }
+    { "id": 6, "title": "Post 6", "content": "Some content here.", "userId": 3 }
   ],
   "user": [
     {

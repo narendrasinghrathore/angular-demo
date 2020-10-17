@@ -11,7 +11,7 @@ export class UserComponent implements OnInit {
 
   user = null;
   constructor(private core: CoreService,
-    private routerState: ActivatedRoute, private router: Router) { }
+    private routerState: ActivatedRoute, public router: Router) { }
 
   ngOnInit(): void {
     const id = this.routerState.snapshot.paramMap.get('id');

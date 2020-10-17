@@ -1,0 +1,67 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "content": "Some content here.",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "content": "Some content here.",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "content": "Some content here.",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "content": "Some content here.",
+      "userId": 4
+    },
+    {
+      "id": 5,
+      "title": "Post 5",
+      "content": "Some content here.",
+      "userId": 5
+    },
+    { "id": 6, "title": "Post 6", "content": "Some content here.", "userId": 6 }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "name": "Narendra",
+      "email": "narendra@gmail.com",
+      "about": "Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a consulting detective in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard. The character and stories have had a profound and lasting effect on mystery writing and popular culture as a whole, with the original tales as well as thousands written by authors other than Conan Doyle being adapted into stage and radio plays, television, films, video games, and other media for over one hundred years."
+    },
+    {
+      "id": 2,
+      "name": "Singh",
+      "email": "singh@gmail.com",
+      "about": "Originally, the Sanskrit word for lion, variously transliterated as Simha or Singh was used as a title by Kshatriya warriors in northern parts of India. The earliest recorded examples of the names ending with Simha are the names of the two sons of the Saka ruler Rudraraman in the second century CE. Jayasimha, the first ruler of the Chalukya dynasty to bear the title Simha, ruled around 500 CE."
+    },
+    {
+      "id": 3,
+      "name": "Rathore",
+      "email": "rathore@gmail.com",
+      "about": " The Rathore is a clan of Rajputs found in Northern India.They form a part of the thirty-six Rajput Clans. Alternative spellings include Rathaur or Rathor or Rathur or Rathod or Rathour or Rahtore. The bravery of the Rathore horsemen was appreciated by Benoît de Boigne after his campaign against them."
+    },
+    {
+      "id": 4,
+      "name": "Sherlock",
+      "email": "sherlock@gmail.com",
+      "about": "Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle. Referring to himself as a consulting detective in the stories, Holmes is known for his proficiency with observation, deduction, forensic science, and logical reasoning that borders on the fantastic, which he employs when investigating cases for a wide variety of clients, including Scotland Yard. The character and stories have had a profound and lasting effect on mystery writing and popular culture as a whole, with the original tales as well as thousands written by authors other than Conan Doyle being adapted into stage and radio plays, television, films, video games, and other media for over one hundred years."
+    },
+    {
+      "id": 5,
+      "name": "Watson",
+      "email": "watson@gmail.com",
+      "about": "Watson is a question-answering computer system capable of answering questions posed in natural language"
+    }
+  ]
+}

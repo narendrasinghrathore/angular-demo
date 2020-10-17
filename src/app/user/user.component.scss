@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+}
+
+mat-card{
+    width:30vw;
+    min-height:40vh;
+    display:flex;
+    flex-direction: column;
+}
+
+mat-card-content{
+    flex-grow: 1;
+}
+
+mat-card-footer{
+    padding:5px;
+    background-color: #dedede;
+}

@@ -1,0 +1,22 @@
+<div class="container">
+  <mat-card>
+    <mat-card-title>
+      {{ user?.name }}
+    </mat-card-title>
+    <mat-card-subtitle> #{{ user?.id }} </mat-card-subtitle>
+    <mat-card-content> {{ user?.about }} </mat-card-content>
+    <mat-card-actions>
+      <button
+        (click)="back()"
+        mat-fab
+        color="accent"
+        aria-label="Navigate to home page"
+      >
+        <mat-icon>keyboard_backspace</mat-icon>
+      </button></mat-card-actions
+    >
+    <mat-card-footer>
+      {{ user?.email }}
+    </mat-card-footer>
+  </mat-card>
+</div>
